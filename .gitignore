@@ -1,0 +1,49 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Dataset and large model files
+data/
+datasets/
+*.zip
+*.h5
+*.keras
+*.pt
+*.pkl
+*.joblib
+
+# Generated outputs
+outputs/
+
+# System files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dataset images and extracted patches
+dataset_patches/
+image/
+
+# YOLO training outputs
+runs/
+*.pt
+*.onnx
+
+# Local database
+smartpark.db
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets and system files
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+
